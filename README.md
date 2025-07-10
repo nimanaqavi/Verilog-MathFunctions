@@ -42,12 +42,12 @@ This digital system evaluates four mathematical functions using hardware-friendl
 
 The Taylor/Maclaurin series approximates functions as a sum of polynomial terms. For this project, the following expansions are used:
 
-| Function | Series Expansion (Maclaurin) |
-|----------|------------------------------|
-| exp(x)   | 1 + x + x²/2! + x³/3! + ...   |
-| sin(x)   | x - x³/3! + x⁵/5! - ...       |
-| cos(x)   | 1 - x²/2! + x⁴/4! - ...       |
-| ln(1+x)  | x - x²/2 + x³/3 - ...         |
+| **Function** | **Maclaurin Series Expansion**                          |
+|--------------|----------------------------------------------------------|
+| `exp(x)`     | 1 + x + x²⁄2! + x³⁄3! + x⁴⁄4! + ...                       |
+| `sin(x)`     | x − x³⁄3! + x⁵⁄5! − x⁷⁄7! + ...                           |
+| `cos(x)`     | 1 − x²⁄2! + x⁴⁄4! − x⁶⁄6! + ...                           |
+| `ln(1 + x)`  | x − x²⁄2 + x³⁄3 − x⁴⁄4 + ... *(for −1 < x ≤ 1)*          |
 
 
 **Key Points:**
