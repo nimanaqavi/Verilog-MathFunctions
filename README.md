@@ -85,6 +85,7 @@ The Taylor/Maclaurin series approximates functions as a sum of polynomial terms.
 - Testbenches apply different input values to verify the correctness of each function’s calculation.
 - Example input values: 0, 1/2, 1/4, etc.
 
+## Block Diagram
 [![Block Diagram](https://github.com/nimanaqavi/Verilog-MathFunctions/blob/main/Verilog-MathFunctions/Images/Block%20Diagram.png?raw=true)](https://github.com/nimanaqavi/Verilog-MathFunctions/blob/main/Verilog-MathFunctions/Images/Block%20Diagram.png?raw=true)
 
 
