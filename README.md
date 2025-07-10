@@ -1,7 +1,7 @@
 
 # Digital Function Approximator Using Taylor/Maclaurin Series (Verilog)
 
-This project implements a digital system in Verilog for calculating mathematical functions**exp(x)**, **sin(x)**, **cos(x)**, and **ln(1+x)**using their Taylor/Maclaurin series expansions. The design is modular, testable, and suitable for FPGA or simulation environments.
+This project implements a digital system in Verilog for calculating mathematical functions**exp(x)**, **sin(x)**, **cos(x)**, and **ln(1+x)** using their Taylor/Maclaurin series expansions. The design is modular, testable, and suitable for FPGA or simulation environments.
 
 ## Table of Contents
 
