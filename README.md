@@ -135,7 +135,4 @@ Distributed under the MIT License.
 
 **Enjoy using this digital function calculator based on the Taylor/Maclaurin series!**
 
----
-
-**Now your project is ready to be simulated, synthesized, and shared with the community!**
 
