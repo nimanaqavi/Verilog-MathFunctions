@@ -87,3 +87,64 @@ The Taylor/Maclaurin series approximates functions as a sum of polynomial terms.
 
 ## Block Diagram
 
+- **Controller:** Manages the sequence of operations for each function.
+- **Datapath:** Performs arithmetic calculations for each term in the series.
+- **Output Logic:** Assembles the final result and signals when ready.
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+Distributed under the MIT License.
+
+**Enjoy using this digital function calculator based on the Taylor/Maclaurin series!**
+
+---
+
+## How to Run and Release
+
+### Running the Code
+
+1. **Clone the Repository**
+   - Download or clone the repository to your local machine.
+
+2. **Open in a Verilog Simulator**
+   - Use ModelSim, Vivado, or any other Verilog-compatible simulator.
+   - Add all Verilog source files and the relevant testbench (e.g., `Tb.v` or `Ln_Tb.v`) to your simulation project.
+
+3. **Compile the Design**
+   - Compile all modules in the correct order to resolve dependencies.
+
+4. **Run Simulation**
+   - Load the testbench module.
+   - Start the simulation and observe the output signals (`RBUS`, `Ready`, etc.).
+   - You can modify the input values in the testbench to test different scenarios.
+
+5. **FPGA Synthesis (Optional)**
+   - If targeting FPGA, use your FPGA vendor's toolchain (e.g., Xilinx Vivado, Intel Quartus).
+   - Create a new project, add all Verilog files, assign top-level ports, and synthesize.
+   - Generate the bitstream and program your FPGA board.
+
+### Making a Release
+
+1. **Prepare the Release**
+   - Ensure all code is tested and documented.
+   - Update the README and add any necessary usage instructions or diagrams.
+
+2. **Tag a Version**
+   - Use Git to tag your release (e.g., `git tag v1.0`).
+
+3. **Create a Release on GitHub**
+   - Go to the "Releases" section of your GitHub repository.
+   - Click "Draft a new release," select your tag, and provide release notes.
+   - Attach any relevant files (e.g., bitstreams, documentation PDFs).
+
+4. **Publish**
+   - Click "Publish release" to make it available for others to download and use.
+
+---
+
+**Now your project is ready to be simulated, synthesized, and shared with the community!**
+
