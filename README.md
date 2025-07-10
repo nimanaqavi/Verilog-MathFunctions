@@ -13,8 +13,9 @@ This project implements a digital system in Verilog for calculating mathematical
 - [Simulation and Testing](#simulation-and-testing)
 - [Block Diagram](#block-diagram)
 - [Contributing](#contributing)
+- [How to Run](#how-to-run)
 - [License](#license)
-- [How to Run and Release](#how-to-run-and-release)
+
 
 ## Overview
 
@@ -99,15 +100,9 @@ The Taylor/Maclaurin series approximates functions as a sum of polynomial terms.
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-Distributed under the MIT License.
-
-**Enjoy using this digital function calculator based on the Taylor/Maclaurin series!**
-
 ---
 
-## How to Run and Release
+## How to Run 
 
 ### Running the Code
 
@@ -131,22 +126,14 @@ Distributed under the MIT License.
    - Create a new project, add all Verilog files, assign top-level ports, and synthesize.
    - Generate the bitstream and program your FPGA board.
 
-### Making a Release
 
-1. **Prepare the Release**
-   - Ensure all code is tested and documented.
-   - Update the README and add any necessary usage instructions or diagrams.
+---
 
-2. **Tag a Version**
-   - Use Git to tag your release (e.g., `git tag v1.0`).
+## License
 
-3. **Create a Release on GitHub**
-   - Go to the "Releases" section of your GitHub repository.
-   - Click "Draft a new release," select your tag, and provide release notes.
-   - Attach any relevant files (e.g., bitstreams, documentation PDFs).
+Distributed under the MIT License.
 
-4. **Publish**
-   - Click "Publish release" to make it available for others to download and use.
+**Enjoy using this digital function calculator based on the Taylor/Maclaurin series!**
 
 ---
 
