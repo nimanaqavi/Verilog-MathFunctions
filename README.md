@@ -10,11 +10,12 @@ This project implements a digital system in Verilog for calculating mathematical
 - [Taylor/Maclaurin Series Explanation](#taylormaclaurin-series-explanation)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
+- [How to Run](#how-to-run)
 - [Simulation and Testing](#simulation-and-testing)
 - [Block Diagram](#block-diagram)
 - [Contributing](#contributing)
-- [How to Run](#how-to-run)
 - [License](#license)
+
 
 
 ## Overview
@@ -133,6 +134,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 Distributed under the MIT License.
 
-**Enjoy using this digital function calculator based on the Taylor/Maclaurin series!**
+I hope you find this Taylor/Maclaurin-based function calculator useful in your digital design projects.
+
 
 
